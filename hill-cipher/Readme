@@ -5,8 +5,8 @@ Note: This code is written in python2
 
 Pre-requisite python library:
 
-Numpy
-Socket
+1. Numpy
+2. Socket
 
 usage:
 
