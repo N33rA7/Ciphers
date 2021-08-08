@@ -1,1 +1,16 @@
-this is a readme file, will update it soon
+Summary: This is a small client-server model implemented using hill cipher, where you can send any 4 charcter over the network via UDP. So the catch here is it will 
+be sent encrypted over the network. If an attaccker will try to sniff your communication he/she will get encrypted trafiic and your communication will be safe.
+
+Note: This code is written in python2
+
+Pre-requisite python library:
+
+Numpy
+Socket
+
+usage:
+
+1. Donwload the repo, copy server.py and client.py in 2 different machines which are going to behave like client and server during communication.
+2. Run the server.py script, Enter the message that you want to send to the client.
+3. then run client.py script, you will receive the message that you have sent from the server.
+4. You can see the encryption using wireshark or tshark.
